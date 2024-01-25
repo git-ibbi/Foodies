@@ -5,6 +5,11 @@
     width: 90%;
     max-width: 75rem;
   }
+  @media (max-width:768px){
+    .header{
+      flex-wrap: wrap;
+    }
+  }
   
   .slideshow {
     width: 40rem;

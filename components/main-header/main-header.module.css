@@ -10,6 +10,15 @@
     padding: 2rem 10%;
   }
 }
+@media (max-width: 768px){
+  .header{
+    flex-wrap: wrap;
+    gap: 1rem;
+  }
+  .nav ul {
+    flex-wrap: wrap;
+  }
+}
 
 .nav ul {
   list-style: none;
